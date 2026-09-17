@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Site do Kawan</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+    <h2>Ficha Cadastral</h2>
+
+    <form>
+
+        <table>
+
+            <tr>
+                <td>Nome:</td>
+                <td><input type="text" name="nome"></td>
+            </tr>
+
+            <tr>
+                <td>RG:</td>
+                <td><input type="text" name="rg"></td>
+
+                <td>CPF:</td>
+                <td><input type="text" name="cpf"></td>
+            </tr>
+
+            <tr>
+                <td>Endereço:</td>
+                <td><input type="text" name="endereco"></td>
+            </tr>
+
+            <tr>
+                <td>Cidade:</td>
+                <td><input type="text" name="cidade"></td>
+
+                <td>Estado:</td>
+                <td><input type="text" name="estado"></td>
+            </tr>
+
+            <tr>
+                <td>Telefone:</td>
+                <td><input type="text" name="telefone"></td>
+
+                <td>E-mail:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td>Data de nascimento:</td>
+                <td><input type="date" name="nascimento"></td>
+            </tr>
+
+            <tr>
+                <td>Sexo:</td>
+                <td>
+                    <select name="sexo">
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                        <option>Prefiro não Informar</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Estado Civil:</td>
+                <td>
+                    <input type="radio" name="estadoCivil"> Solteiro(a)
+                    <input type="radio" name="estadoCivil"> Casado(a)
+                    <input type="radio" name="estadoCivil"> Viúvo(a)
+                </td>
+            </tr>
+
+            <tr>
+                <td>Profissão:</td>
+                <td><input type="text" name="profissao"></td>
+            </tr>
+
+            <tr>
+                <td>Observações:</td>
+                <td>
+                    <textarea name="observacoes" rows="4" cols="30"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="reset" value="Limpar Dados">
+                    <input type="submit" value="Enviar Dados">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+
+</html>
